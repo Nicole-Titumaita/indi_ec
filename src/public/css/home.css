@@ -1,0 +1,36 @@
+/*modificando body*/
+
+body {
+    background-image: linear-gradient(rgb(106, 6, 126), rgba(153, 24, 204, 0.788), rgba(186, 77, 230, 0.788)),
+        url("../img/home.jpeg");
+
+  
+
+}
+h1{
+   text-align: center;
+    font-size: 130px;
+    color: #ffffff;
+    font-family: 'Carter One', cursive;
+    margin-top: 2%;
+}
+h2{
+    text-align: center;
+    font-size:65px;
+    color: #c9c6c6b4;
+}
+button{
+    display: block;
+    padding: 0.5rem 1rem;
+    width: 170px;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: rgba(221, 69, 221, 0.705);
+    border-color: rgb(202, 92, 224);
+    border-radius: 10%;
+    color: rgb(41, 41, 41);
+}
+h1 img{
+    width: 100px;
+    margin-top: 50px;
+}

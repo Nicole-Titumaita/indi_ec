@@ -1,0 +1,30 @@
+{{>header titulo = 'INDIEC - Login'}}
+<link rel="stylesheet" href="../css/login.css">
+
+<body>
+
+
+  <div class="page">
+    <div class="container__login">
+
+      <form class="form" action="/login" method="post">
+        <h1>
+          <img class="logo" src="../img/notamusical.png" alt=""> iNDIEC
+        </h1>
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        {{#if alert}}
+        <h3>{{mensaje}}</h3>
+        {{/if}}
+        <input type="submit" id="submit" value="Ingresar">
+        <form>
+          <a href="/registrar-usuario">Regístrate</a>
+    </div>
+
+  </div>
+
+</body>
+
+<script src="/javascript/pantallacarga.js"></script>
