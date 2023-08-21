@@ -1,0 +1,28 @@
+{{> header titulo = 'INDIEC - Registro de Usuario'}}
+<link rel="stylesheet" href="/css/registrar-usuario.css">
+
+<body>
+  <div class="page">
+    <div class="container__registro">
+
+      <form class="form" action="/registro" method="post">
+        <h1>
+          <img class="logo" src="../img/notamusical.png" alt=""> Registro en iNDIEC
+        </h1>
+        <label for="username">Nombre de Usuario</label>
+        <input id="username" type="text" name="username">
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email">
+        <label for="birthdate">Fecha de Nacimiento</label>
+        <input id="birthdate" type="date" name="birthdate">
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password">
+        <input type="submit" id="submit" value="Registrarse">
+      </form>
+
+      <a href="/login">Iniciar sesión</a>
+    </div>
+  </div>
+</body>
+
+<script src="/javascript/pantallacarga.js"></script>

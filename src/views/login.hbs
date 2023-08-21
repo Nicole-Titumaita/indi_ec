@@ -8,19 +8,22 @@
     <div class="container__login">
 
       <form class="form" action="/login" method="post">
-        <h1>
-          <img class="logo" src="../img/notamusical.png" alt=""> iNDIEC
-        </h1>
-        <label for="email">Email</label>
+        <div class="slogan">
+            <h1><img src="../img/musica.png" alt=""> iNDI EC </h1>
+        </div>
+        <span class="pr">¿Todavia no tienes cuenta?</span>
+        <a class="re" href="/registrar-usuario">Regístrate</a>
+
+        <label for="email">Dirección de Email</label>
         <input id="email" type="email" name="email">
-        <label for="password">Password</label>
+        <label for="password">Contraseña</label>
         <input type="password" id="password" name="password">
         {{#if alert}}
         <h3>{{mensaje}}</h3>
         {{/if}}
-        <input type="submit" id="submit" value="Ingresar">
+        <input class="submit" type="submit" id="submit" value="Ingresar">
         <form>
-          <a href="/registrar-usuario">Regístrate</a>
+          
     </div>
 
   </div>

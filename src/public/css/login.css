@@ -1,20 +1,9 @@
+
+
 body {
-  background-image: linear-gradient(rgb(106, 6, 126), rgba(153, 24, 204, 0.788), rgba(186, 77, 230, 0.788)),
+  background-image: linear-gradient(180deg, rgba(155, 37, 222, 0.80) 4.17%, rgba(0, 0, 0, 0.80) 72.40%),
       url("../img/home.jpeg");
-
-      position: absolute
-
-
-}
-@import url("https://rsms.me/inter/inter-ui.css");
-::selection {
-  background: #2d2f36;
-}
-::-webkit-selection {
-  background: #2d2f36;
-}
-::-moz-selection {
-  background: hsl(227, 9%, 19%);
+      position: absolute;
 }
 
 .page {
@@ -25,28 +14,43 @@ body {
   position: relative;
   place-content: center;
   width: calc(100% - 0px);
-  background-image: url(/img/login.jpg);
   background-repeat: no-repeat;
   background-position: 1% 50%;
+  
 
 }
-@media (max-width: 767px) {
-  .page {
-    height: auto;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+h1{
+  text-align: center;
+  color: #ffffff;
+  margin-top: 2%;
+  font-family: Amiko;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   }
+
+h1 img{
+
+  margin-top: 35px;
+  filter: invert(100%);
+  width: 28px;
+  }
+
+  .pr{
+color: #f2f2f2;
+  }
+.re{
+  color: #de1515;
+  margin-left: 20px;
 }
 .container__login {
-  padding-left: 33%;
+  padding-left: 40%;
   display: flex;
   height: 320px;
   margin: 0 auto;
   width: 1050px;
   padding-bottom: 50px;
-
-
-
 }
 @media (max-width: 767px) {
   .container__login {
@@ -55,65 +59,14 @@ body {
     width: 320px;
   }
 }
-.left {
-  background: rgb(211, 228, 235);
-  height: calc(100% - 40px);
-  top: 20px;
-  position: relative;
-  width: 40%;
-  border-radius: 5%;
-}
-@media (max-width: 767px) {
-  .left {
-    height: 100%;
-    left: 20px;
-    width: calc(100% - 40px);
-    max-height: 270px;
-  }
-}
+
 .login {
   font-size: 50px;
   font-weight: 900;
   margin: 50px 40px 40px;
   color:rgb(44, 144, 212)
 }
-.eula {
 
-  color: rgb(4, 101, 123);
-  font-size: 14px;
-  line-height: 1.5;
-  margin: 15px;
-}
-.img{
-width: 50px;
-height: 50px;
-}
-
-.right {
-  background: #474a59;
-  box-shadow: 0px 0px 40px 16px rgba(0, 0, 0, 0.22);
-  color: #f1f1f2;
-  position: relative;
-  width: 50%;
-}
-@media (max-width: 767px) {
-  .right {
-    flex-shrink: 0;
-    height: 100%;
-    width: 100%;
-    max-height: 350px;
-  }
-}
-svg {
-  position: absolute;
-  width: 320px;
-}
-path {
-  fill: none;
-  stroke: url(#linearGradient);
-  stroke-width: 4;
-  stroke-dasharray: 240 1386;
-}
 .form {
   margin: 40px;
   position: absolute;
@@ -121,39 +74,45 @@ path {
 label {
   color: #c2c2c5;
   display: block;
-  font-size: 14px;
+  font-size: 12px;
   height: 16px;
   margin-top: 20px;
   margin-bottom: 5px;
 }
 input {
-  background: transparent;
+  background: #ffffff;
   border: 0;
-  color: #f2f2f2;
-  font-size: 20px;
+  text-align: center;
+  color: #100b0b;
+  font-size: 15px;
   height: 30px;
   line-height: 30px;
   outline: none !important;
   width: 100%;
+  border-radius: 20px;
+background: #D9D9D9;
 }
-input::-moz-focus-inner {
-  border: 0;
-}
-#submit {
-  color: #707075;
-  margin-top: 40px;
-  transition: color 300ms;
-}
-#submit:focus {
-  color: #f2f2f2;
-}
-#submit:active {
-  color: #d0d0d2;
-}
-.logo{
-  width: 80px;
-
-}
-h1 .logo{
+.submit{
+  
+  color: #FFF;
   text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 100% */
+  display: block;
+  margin: 0 auto;
+  margin-top: 250px;
+  width: 200px;
+  height: 50px;
+  padding: 10px 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 30px;
+border-radius: 30px;
+border: 5px solid #EC1111;
+background: linear-gradient(180deg, #E43535 0%, rgba(228, 53, 53, 0.00) 100%);
 }
