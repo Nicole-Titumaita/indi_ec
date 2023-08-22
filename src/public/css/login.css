@@ -80,12 +80,16 @@ label {
   margin-bottom: 5px;
 }
 input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   background: #ffffff;
   border: 0;
   text-align: center;
   color: #100b0b;
   font-size: 15px;
-  height: 30px;
+  height: 25px;
   line-height: 30px;
   outline: none !important;
   width: 100%;
